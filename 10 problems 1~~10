@@ -1,0 +1,153 @@
+// 10 probiems
+void main () {
+print ("Hello World!");  //problrm 1
+
+
+
+
+
+
+}
+      //problem 2
+
+void main() {
+  int? A = int.parse(stdin.readLineSync()!);
+
+  int? B = int.parse(stdin.readLineSync()!);
+
+  int X = A + B;
+
+  print("X = $X");
+}
+ 
+
+
+
+ 
+
+void main() {//problem 3
+  const double pi = 3.14159;
+
+  double radius = double.parse(stdin.readLineSync()!);
+
+  double area = pi * radius * radius;
+
+  print("A = ${area.toStringAsFixed(4)}");
+}
+
+
+
+
+
+
+void main() {  //problem 4
+ 
+  int A = int.parse(stdin.readLineSync()!);
+
+  int B = int.parse(stdin.readLineSync()!);
+
+  int sum = A + B;
+
+  print("sum + $sum")
+}
+
+
+
+
+
+
+void main() {  //Problem 5
+  int A = int.parse(stdin.readLineSync()!);
+
+  int B = int.parse(stdin.readLineSync()!);
+
+  int SUM = A + B ;
+
+  print("SUM + $SUM );
+  }
+
+
+
+
+
+
+
+import 'dart:io'; // بمساعدة chat gpt   //problem 6
+
+void main() {
+  // قراءة الدرجة A
+  double A = double.parse(stdin.readLineSync()!);
+
+  // قراءة الدرجة B
+  double B = double.parse(stdin.readLineSync()!);
+
+  // حساب المتوسط المرجّح
+  double MEDIA = ((A * 3.5) + (B * 7.5)) / 11;
+
+  // طباعة النتيجة بدقة 5 أرقام عشرية (حسب المطلوب غالبًا في المسابقات)
+  print("MEDIA = ${MEDIA.toStringAsFixed(5)}");
+}
+
+
+
+
+
+
+void main() {    // problem  7
+  double A = double.parse(stdin.readLineSync()!);
+  double B = double.parse(stdin.readLineSync()!);
+  double C = double.parse(stdin.readLineSync()!);
+
+  double MEDIA = ((A * 2) + (B * 3) + (C * 5)) / 10;
+
+  print("MEDIA = ${MEDIA.toStringAsFixed(1)}");
+}
+
+
+
+
+
+void main() {   // problem 8
+  int A = int.parse(stdin.readLineSync()!);
+  int B = int.parse(stdin.readLineSync()!);
+  int C = int.parse(stdin.readLineSync()!);
+  int D = int.parse(stdin.readLineSync()!);
+
+  int SUM = (A * B) - (C * D);
+
+  print(" SUM = $DIFFERENCE");
+}
+
+
+
+
+
+void main() {  // chat gpt // problem 9
+  int employeeNumber = int.parse(stdin.readLineSync()!);
+
+  int workedHours = int.parse(stdin.readLineSync()!);
+
+  double amountPerHour = double.parse(stdin.readLineSync()!);
+
+  double salary = workedHours * amountPerHour;
+
+  print("NUMBER = $employeeNumber");
+  print("SALARY = U\$ ${salary.toStringAsFixed(2)}");
+}
+
+
+
+
+
+void main() { // problem 10
+  String name = stdin.readLineSync()!;
+
+  double fixedSalary = double.parse(stdin.readLineSync()!);
+
+  double totalSales = double.parse(stdin.readLineSync()!);
+
+  double finalSalary = fixedSalary + (totalSales * 0.15);
+
+  print("TOTAL = R\$ ${finalSalary.toStringAsFixed(2)}");
+}
+ 
