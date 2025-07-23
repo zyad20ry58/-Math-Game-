@@ -1,0 +1,21 @@
+//سؤال لعبة الجمع والطرح وبيعد عدد الاخطاء
+
+void main ()
+int correctAnswers = 0;
+int wrongAnswers = 0;
+String continueGame = 'yes';
+while (continueGame.toLowerCase() == 'yes') {
+int num1 = Random().nextInt(10) + 1;
+int num2 = Random().nextInt(10) + 1;
+int correctResult = num1 + num2;
+print('What is $num1 + $num2 ?');
+String? userInput = stdin.readLineSync();
+int? userAnswer = int.tryParse(userInput);
+if (userAnswer == correctResult) {
+  print("Correct Answer!");
+  correctAnswers++;
+} else {
+  print("Wrong Answer. The correct answer is: $correctResult");
+  wrongAnswers++;
+}
+print("Do you want to continue? (yes / no)");
